@@ -48,17 +48,12 @@ Both save the final itinerary as a Markdown file in outputs/.
 
 Example output
 
-Running python main.py plans a 7-day London trip end-to-end: weather and cost research, local attraction/food recommendations, and a final day-by-day itinerary with a packing list and budget breakdown — all generated autonomously by the agent crew.
+Running python main.py (or the Streamlit UI) asks for a destination, trip length, and budget, then plans the whole trip end-to-end: weather and cost research, local attraction/food recommendations, and a final day-by-day itinerary with a packing list and budget breakdown — all generated autonomously by the agent crew. If the budget is unrealistic for the destination, the agents flag that honestly instead of forcing a plan that wouldn't actually work.
+
 ![Streamlit UI](assets/asset0.png)
-![Sample itinerary output](assets/asset.png)
-![Sample itinerary output](assets/asset1.png)
-![Sample itinerary output](assets/asset2.png)
-![Sample itinerary output](assets/asset6.png)
-
-
-
+![Streamlit UI](assets/asset1.png)
 
 Possible extensions
-Swap the hardcoded DESTINATION_REQUEST in main.py for a CLI/web input form.
 Add a real search_internet tool call (e.g. Tavily/SerpAPI) so city_expert and local_agent use live data instead of the model's own knowledge.
 Add cost/token tracking in GeminiModelClient.cost() for budget monitoring across runs.
+Deploy the Streamlit app publicly (with rate limiting, since it would run on a shared API key).
