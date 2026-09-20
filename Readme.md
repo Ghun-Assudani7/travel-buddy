@@ -52,8 +52,11 @@ Running python main.py (or the Streamlit UI) asks for a destination, trip length
 
 ![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset.png)
 ![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset1.png)
-![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset2.png)
-![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset3.png)
+![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset13.png)
+![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset4.png)
+![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset5.png)
+![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset6.png)
+
 
 
 Possible extensions
