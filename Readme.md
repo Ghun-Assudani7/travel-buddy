@@ -50,6 +50,9 @@ Example output
 
 Running python main.py (or the Streamlit UI) asks for a destination, trip length, and budget, then plans the whole trip end-to-end: weather and cost research, local attraction/food recommendations, and a final day-by-day itinerary with a packing list and budget breakdown — all generated autonomously by the agent crew. If the budget is unrealistic for the destination, the agents flag that honestly instead of forcing a plan that wouldn't actually work.
 
+![image alt](<img width="1918" height="945" alt="image" src="https://github.com/user-attachments/assets/18faf3b3-b430-4e31-beb6-234002fed7db" />)
+
+
 ![Streamlit UI](assets/Asset.png)
 ![Streamlit UI](assets/Asset1.png)
 
