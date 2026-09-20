@@ -51,10 +51,10 @@ Example output
 Running python main.py (or the Streamlit UI) asks for a destination, trip length, and budget, then plans the whole trip end-to-end: weather and cost research, local attraction/food recommendations, and a final day-by-day itinerary with a packing list and budget breakdown — all generated autonomously by the agent crew. If the budget is unrealistic for the destination, the agents flag that honestly instead of forcing a plan that wouldn't actually work.
 
 ![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset.png)
+![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset1.png)
+![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset2.png)
+![image alt](https://raw.githubusercontent.com/Ghun-Assudani7/travel-buddy/refs/heads/main/Assets/Asset3.png)
 
-
-![Streamlit UI](assets/Asset.png)
-![Streamlit UI](assets/Asset1.png)
 
 Possible extensions
 Add a real search_internet tool call (e.g. Tavily/SerpAPI) so city_expert and local_agent use live data instead of the model's own knowledge.
